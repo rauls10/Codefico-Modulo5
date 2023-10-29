@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulários</title>
+    </head>
+    <body bgcolor="#B0C4DE">
+        <h1>Tipos de Formulário</h1>
+        <form>
+            <label> Nome:
+                <input type="text" id="text" name="nome" placeholder="Coloque seu nome" required/>
+            </label>
+            </br>
+            </br>
+            <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" placeholder="Insira seu email" required/>
+            </br>
+            </br>
+            <label for="senha"> Senha: </label> 
+                <b><input type="password" id="senha" name="senha" placeholder="Digite sua senha" required /></b>
+            </br>
+            </br>
+            <label for="genero"> Gênero: 
+            <select name="genero" id="genero">
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+            </select>
+            </label>
+            </br>
+            </br>
+            <fieldset>
+                <legend>Quantos cachorros tem na sua casa:</legend>
+                <input type="radio" id="op1" name="option" />
+                <label for="op1">1</label></br>
+                <input type="radio" id="op2" name="option" />
+                <label for="op2">2</label></br>
+                <input type="radio" id="op3" name="option" />
+                <label for="op3">3 ou mais</label></br>
+            </fieldset>
+            <label for="desc">Descrição: </label><textarea name="descricao" id="desc" cols="30" rows="5" placeholder="Descrição"></textarea>
+            </br>
+            </br>
+            <input type="submit" />
+            <input type="reset" />
+            </br>
+            </br>
+            <button type="submit">Clique aqui</button>
+            </br>
+            </br>
+            <label for="bot">Escolha a data: 
+            <input type="date" id="bot" name="botao" />
+            </label>
+            <br>
+            <br>
+            <label for="escolha">Caixa: </label>
+            <input type="range" min="0" max="10" id="escolha" name="teste" />
+        </form>
+    </body>
+</html>

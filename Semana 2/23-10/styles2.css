@@ -1,0 +1,22 @@
+
+div + p {
+    color:burlywood;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+div ~ p {
+    color: aqua;
+    background-color: brown;
+}
+
+div > p {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+ul li a {
+    font-style: italic;
+    font-size: 20px;
+    text-decoration-color: rgb(197, 11, 88);
+}

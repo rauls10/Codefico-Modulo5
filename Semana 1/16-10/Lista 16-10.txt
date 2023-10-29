@@ -1,0 +1,24 @@
+1 - A declaração em HTML, também conhecida como DOCTYPE, é a primeira linha de código no documento HTML. É uma instrução para o navegador web
+para saber qual versão do HTML a página é escrita. Ela garante que a página web funcione da mesma maneira em diversos navegadores web.
+2 - Elementos HTML servem para criar a página web e organizá-la de modo que fique de fácil entendimento para o usuário do site.
+3 - Os elementos são estruturados em:
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+</title>
+</head>
+<body>
+<h1>
+</h1>
+</body>
+</html>
+4 - Os atributos HTML são encontrados no <head> que é o cabeçalho.
+5 - Os elementos vazios, são elementos que ficam ocultos no código, ou seja, não aparecem no site. Ex: <meta> que são configurações internas e registro de autor.
+6 - Elementos em bloco ocupam a linha toda, a largura da página <div>. Elementos inline são os que são configurados na mesma linha, ou seja, um na frente do outro, até acabar o espaço <span>.
+7 - As tags <div> são para construção em bloco. Os <span> são para configurar no mesmo espaço.
+8 - <a href = "link"> Nome para direcionar ao link </a>
+9 - Meta informação sempre vai no head <meta name ="http-equip" content=" "/>
+<meta content-type="refresh" content="2"; url=/>
+10 - <mark> serve para destacar o texto citado, como se fosse uma caneta marca texto.
+<del> risca o texto dentro da tag.

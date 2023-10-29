@@ -1,0 +1,33 @@
+ul button {
+    border: 10px firebrick solid;
+    border-radius: 10px;
+    margin: 20px;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(77, 233, 103);
+    font-size: large;
+    cursor: pointer;
+    margin-inline: 170px;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+img {
+    width: 400px;
+    height: 350px;
+    display: block;
+    margin: auto;
+    border: 30px rgb(73, 29, 145) ridge;
+}
+
+p {
+    text-align:center;
+    text-indent: 0;
+    margin-top: 100px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
