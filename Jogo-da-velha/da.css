@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: cadetblue;
+  }
+  /* body h1 {
+    
+    margin-bottom: 450px;
+  } */
+  #tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    /* margin-right: 150px; */
+    align-items: center;
+  }
+
+  .parent {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .celula {
+    width: 100px;
+    height: 100px;
+    font-size: 2em;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: 0.5s;
+    opacity: 10px;
+  }
+  
+  .celula:hover {
+    background-color: #f0f0f0;
+    
+  }
+  
